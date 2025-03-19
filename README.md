@@ -1,198 +1,45 @@
 
-<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Fri Oct 04 2024 13:14:15 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="zeal-consult-template.webflow.io" data-wf-page="66d714565784f849823be852" data-wf-site="66d714555784f849823be7fa" data-wf-status="1" lang="en" data-wf-locale="en"><head><meta charset="utf-8"/><title>Zeal Consult - Webflow HTML website template</title><meta content="Elevate your business with expert website audits, strategic planning, and digital marketing solutions designed to drive growth and success." name="description"/><meta content="Zeal Consult - Webflow HTML website template" property="og:title"/><meta content="Elevate your business with expert website audits, strategic planning, and digital marketing solutions designed to drive growth and success." property="og:description"/><meta content="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66f15a07a91a9c050c0700d0_Info%20Graphics.jpg" property="og:image"/><meta content="Zeal Consult - Webflow HTML website template" property="twitter:title"/><meta content="Elevate your business with expert website audits, strategic planning, and digital marketing solutions designed to drive growth and success." property="twitter:description"/><meta content="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66f15a07a91a9c050c0700d0_Info%20Graphics.jpg" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/66d714555784f849823be7fa/css/zeal-consult-template.webflow.68cca8411.min.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66d8490606b0151d3d03f929_Isolation_Mode.svg" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66d8490f8164eadd7d6db232_Isolation_Mode%20(1).svg" rel="apple-touch-icon"/>
-</head><body><div class="nav_fixed"><div data-animation="default" class="nav_component w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" data-ix="navigatio-open-and-close" data-w-id="396176c6-906a-9f74-c6d0-8a4663dfdea9" role="banner" data-duration="400"><div class="nav_container"><a href="/" aria-current="page" class="nav_brand w-nav-brand w--current"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66d992bfc9a693f8a38c7fd2_Logo%20(1).svg" loading="lazy" alt="Zeal Consult Template" class="nav_logo"/></a><nav role="navigation" class="nav_menu w-nav-menu"><div class="nav_menu_container"><div class="nav-menu-inner"><a href="/" aria-current="page" class="nav_menu_link w-nav-link w--current">Home</a><a href="/services" class="nav_menu_link w-nav-link">Services</a><a href="/about-us" class="nav_menu_link w-nav-link">About</a><a href="/blog" class="nav_menu_link w-nav-link">Blogs</a><a href="/contact" class="nav_menu_link w-nav-link">Contact</a></div><a href="/contact" class="button is-nav w-button">Get in Touch</a><div class="nav-btn-wrapper"></div></div></nav><div class="nav_button w-nav-button" data-ix="navigatio-open-and-close"><div class="nav_lines_icon"><div class="nav_menu-lines"><div class="nav_lines-one"></div><div class="nav_lines-two"></div><div class="nav_lines-three"></div></div></div></div></div></div></div><div class="page-wrapper"><div class="global-styles w-embed"><style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Professional Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-/* Make text look crisper and more legible in all browsers */
-/*body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}*/
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my professional website. I am passionate about technology and design.</p>
+    </section>
 
-/* Focus state style for keyboard navigation for the focusable elements */
-*[tabindex]:focus-visible,
-  input[type="file"]:focus-visible {
-   outline: 0.125rem solid #4d65ff;
-   outline-offset: 0.125rem;
-}
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>SEO Optimization</li>
+        </ul>
+    </section>
 
-/* Set color style to inherit */
-.inherit-color * {
-    color: inherit;
-}
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@example.com</p>
+    </section>
 
-/* Get rid of top margin on first element in any rich text element */
-.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
-  margin-top: 0 !important;
-}
-
-/* Get rid of bottom margin on last element in any rich text element */
-.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
-	margin-bottom: 0 !important;
-}
-
-
-/* Make sure containers never lose their center alignment */
-.container-medium,.container-small, .container-large {
-	margin-right: auto !important;
-  margin-left: auto !important;
-}
-
-/* 
-Make the following elements inherit typography styles from the parent and not have hardcoded values. 
-Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
-Uncomment this CSS to use it in the project. Leave this message for future hand-off.
-*/
-/*
-a,
-.w-input,
-.w-select,
-.w-tab-link,
-.w-nav-link,
-.w-dropdown-btn,
-.w-dropdown-toggle,
-.w-dropdown-link {
-  color: inherit;
-  text-decoration: inherit;
-  font-size: inherit;
-}
-*/
-
-/* Apply "..." after 3 lines of text */
-.text-style-3lines {
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-}
-
-/* Apply "..." after 2 lines of text */
-.text-style-2lines {
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
-}
-
-/* These classes are never overwritten */
-.hide {
-  display: none !important;
-}
-
-@media screen and (max-width: 991px) {
-    .hide, .hide-tablet {
-        display: none !important;
-    }
-}
-  @media screen and (max-width: 767px) {
-    .hide-mobile-landscape{
-      display: none !important;
-    }
-}
-  @media screen and (max-width: 479px) {
-    .hide-mobile{
-      display: none !important;
-    }
-}
- 
-.margin-0 {
-  margin: 0rem !important;
-}
-  
-.padding-0 {
-  padding: 0rem !important;
-}
-
-.spacing-clean {
-padding: 0rem !important;
-margin: 0rem !important;
-}
-
-.margin-top {
-  margin-right: 0rem !important;
-  margin-bottom: 0rem !important;
-  margin-left: 0rem !important;
-}
-
-.padding-top {
-  padding-right: 0rem !important;
-  padding-bottom: 0rem !important;
-  padding-left: 0rem !important;
-}
-  
-.margin-right {
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
-  margin-left: 0rem !important;
-}
-
-.padding-right {
-  padding-top: 0rem !important;
-  padding-bottom: 0rem !important;
-  padding-left: 0rem !important;
-}
-
-.margin-bottom {
-  margin-top: 0rem !important;
-  margin-right: 0rem !important;
-  margin-left: 0rem !important;
-}
-
-.padding-bottom {
-  padding-top: 0rem !important;
-  padding-right: 0rem !important;
-  padding-left: 0rem !important;
-}
-
-.margin-left {
-  margin-top: 0rem !important;
-  margin-right: 0rem !important;
-  margin-bottom: 0rem !important;
-}
-  
-.padding-left {
-  padding-top: 0rem !important;
-  padding-right: 0rem !important;
-  padding-bottom: 0rem !important;
-}
-  
-.margin-horizontal {
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
-}
-
-.padding-horizontal {
-  padding-top: 0rem !important;
-  padding-bottom: 0rem !important;
-}
-
-.margin-vertical {
-  margin-right: 0rem !important;
-  margin-left: 0rem !important;
-}
-  
-.padding-vertical {
-  padding-right: 0rem !important;
-  padding-left: 0rem !important;
-}
-
-</style></div><main class="main-wrapper"><section class="section_hero"><div class="u-nav-spacer"></div><div class="padding-global padding-horizontal-m-0"><div class="container-large"><div class="hero_grid"><div id="w-node-c869799b-6932-d519-9c89-71bb5ca2042b-5ca20426" data-w-id="c869799b-6932-d519-9c89-71bb5ca2042b" class="hero_content"><div><div class="title-small is-neon">Empower Your Brand</div><div class="padding-bottom padding-xsmall"></div><h1 class="text-color-white heading-style-h2">Elevate Your Business with Expert Website Consulting</h1><div class="padding-bottom padding-xsmall"></div><p class="body_one">Transform your online presence with expert website consulting. We provide tailored strategies and designs to drive your business’s growth. Let&#x27;s build your digital future together.</p></div><div id="w-node-c869799b-6932-d519-9c89-71bb5ca20435-5ca20426"><a href="http://finsweet.com/client-first/docs" target="_blank" class="button is-medium w-button">Know More</a></div></div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66daf04cdd9961dbd9f29402_Hero_Thumbnail.avif" loading="lazy" data-w-id="c869799b-6932-d519-9c89-71bb5ca20438" alt="Team standing happily" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 45vw, 508px" srcset="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66daf04cdd9961dbd9f29402_Hero_Thumbnail-p-500.avif 500w, https://cdn.prod.website-files.com/66d714555784f849823be7fa/66daf04cdd9961dbd9f29402_Hero_Thumbnail.avif 786w" class="hero_image object-position-left"/></div></div></div></section><section class="services"><div class="padding-global padding-section-large-xx"><div class="container-large"><div data-w-id="4aefd6d9-ac0e-76a7-a5bc-cda80f4144db" class="title_block"><div class="title-small">Business consulting</div><div class="padding-top padding-xsmall"></div><div class="title-row"><h2>What services do we offer for your business</h2><div class="title_block-right"><p class="body_one-dark">See how our tailored solutions can boost your business. From planning to support, we provide the expertise to drive your success.</p><div class="padding-bottom padding-regular"></div><a href="/services" class="text-link-dark">All services</a></div></div></div><div class="padding-bottom padding-medium"></div><div data-w-id="6695d41a-66a7-37c5-93fd-b58b5568e196" class="w-dyn-list"><div role="list" class="cards_grid w-dyn-items"><div role="listitem" class="card_grid_inner w-dyn-item"><a data-w-id="6695d41a-66a7-37c5-93fd-b58b5568e199" href="/services/business-website-audit" class="card-regular w-inline-block"><div class="card-inner"><div class="card-header"><div class="card_icon_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e16f286a17acea46d284b9_Business%20Website%20Audit-1.svg" alt="" class="card_icon-default"/><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e16f22db56b5a9122d93f2_Business%20Website%20Audit.svg" loading="lazy" alt="" class="card_icon-hover"/></div><h3 class="heading-style-h3">Business Website Audit</h3></div><div id="w-node-_6695d41a-66a7-37c5-93fd-b58b5568e1a0-5568e196" class="card-content-wrapper"><p class="text-lighter">Assess your website’s performance and provide improvement recommendations.</p><div class="text-align-left card-button-wrapper"><div class="button is-grid-button"><div>Details</div><div class="icon-1x1-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-<path d="M4.16675 10.5H15.8334" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 4.66663L15.8333 10.5L10 16.3333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div></div></div></div></div></a></div><div role="listitem" class="card_grid_inner w-dyn-item"><a data-w-id="6695d41a-66a7-37c5-93fd-b58b5568e199" href="/services/strategic-website-planning" class="card-regular w-inline-block"><div class="card-inner"><div class="card-header"><div class="card_icon_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e1708ffc5600d27d5aa884_Strategic%20Website%20Planning-1.svg" alt="" class="card_icon-default"/><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e1709579c08cac4523c742_Strategic%20Website%20Planning.svg" loading="lazy" alt="" class="card_icon-hover"/></div><h3 class="heading-style-h3">Strategic Website Planning</h3></div><div id="w-node-_6695d41a-66a7-37c5-93fd-b58b5568e1a0-5568e196" class="card-content-wrapper"><p class="text-lighter">Create a strategy to align your website with business goals and audience needs.</p><div class="text-align-left card-button-wrapper"><div class="button is-grid-button"><div>Details</div><div class="icon-1x1-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-<path d="M4.16675 10.5H15.8334" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 4.66663L15.8333 10.5L10 16.3333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div></div></div></div></div></a></div><div role="listitem" class="card_grid_inner w-dyn-item"><a data-w-id="6695d41a-66a7-37c5-93fd-b58b5568e199" href="/services/competitive-analysis" class="card-regular w-inline-block"><div class="card-inner"><div class="card-header"><div class="card_icon_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e1710dbe0e0e54b0545be5_Competitive%20Analysis-1.svg" alt="" class="card_icon-default"/><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e17117fa1918813c11b4b8_Competitive%20Analysis.svg" loading="lazy" alt="" class="card_icon-hover"/></div><h3 class="heading-style-h3">Competitive Analysis</h3></div><div id="w-node-_6695d41a-66a7-37c5-93fd-b58b5568e1a0-5568e196" class="card-content-wrapper"><p class="text-lighter">Review competitors’ sites to uncover opportunities for differentiation.</p><div class="text-align-left card-button-wrapper"><div class="button is-grid-button"><div>Details</div><div class="icon-1x1-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-<path d="M4.16675 10.5H15.8334" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 4.66663L15.8333 10.5L10 16.3333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div></div></div></div></div></a></div><div role="listitem" class="card_grid_inner w-dyn-item"><a data-w-id="6695d41a-66a7-37c5-93fd-b58b5568e199" href="/services/conversion-rate-optimization" class="card-regular w-inline-block"><div class="card-inner"><div class="card-header"><div class="card_icon_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e17260f208bf21b5bcf9a6_CRO.svg" alt="" class="card_icon-default"/><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e172497b3211fdc31d4ac7_CRO-1.svg" loading="lazy" alt="" class="card_icon-hover"/></div><h3 class="heading-style-h3">Conversion Rate Optimization</h3></div><div id="w-node-_6695d41a-66a7-37c5-93fd-b58b5568e1a0-5568e196" class="card-content-wrapper"><p class="text-lighter">Enhance design and functionality to boost user engagement and conversions.</p><div class="text-align-left card-button-wrapper"><div class="button is-grid-button"><div>Details</div><div class="icon-1x1-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-<path d="M4.16675 10.5H15.8334" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 4.66663L15.8333 10.5L10 16.3333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div></div></div></div></div></a></div><div role="listitem" class="card_grid_inner w-dyn-item"><a data-w-id="6695d41a-66a7-37c5-93fd-b58b5568e199" href="/services/brand-positioning-and-messaging" class="card-regular w-inline-block"><div class="card-inner"><div class="card-header"><div class="card_icon_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e1758e79c08cac4528822a_Brand%20Positioning%20and%20Messaging-1.svg" alt="" class="card_icon-default"/><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e17566fc5600d27d5f278c_Brand%20Positioning%20and%20Messaging.svg" loading="lazy" alt="" class="card_icon-hover"/></div><h3 class="heading-style-h3">Brand Positioning and Messaging</h3></div><div id="w-node-_6695d41a-66a7-37c5-93fd-b58b5568e1a0-5568e196" class="card-content-wrapper"><p class="text-lighter">Develop content and visuals to clearly communicate your brand’s value.</p><div class="text-align-left card-button-wrapper"><div class="button is-grid-button"><div>Details</div><div class="icon-1x1-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-<path d="M4.16675 10.5H15.8334" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 4.66663L15.8333 10.5L10 16.3333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div></div></div></div></div></a></div><div role="listitem" class="card_grid_inner w-dyn-item"><a data-w-id="6695d41a-66a7-37c5-93fd-b58b5568e199" href="/services/website-analytics-and-reporting" class="card-regular w-inline-block"><div class="card-inner"><div class="card-header"><div class="card_icon_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e1708ffc5600d27d5aa884_Strategic%20Website%20Planning-1.svg" alt="" class="card_icon-default"/><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e1709579c08cac4523c742_Strategic%20Website%20Planning.svg" loading="lazy" alt="" class="card_icon-hover"/></div><h3 class="heading-style-h3"> Website Analytics and Reporting</h3></div><div id="w-node-_6695d41a-66a7-37c5-93fd-b58b5568e1a0-5568e196" class="card-content-wrapper"><p class="text-lighter">Develop content and visuals to clearly communicate your brand’s value.</p><div class="text-align-left card-button-wrapper"><div class="button is-grid-button"><div>Details</div><div class="icon-1x1-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-<path d="M4.16675 10.5H15.8334" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 4.66663L15.8333 10.5L10 16.3333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div></div></div></div></div></a></div></div></div></div></div></section><section class="counters padding-section-medium"><div class="padding-global"><div class="container-large"><div class="counter-grid"><div data-w-id="e38437d7-6d75-8391-6b5c-b69fcd84560b" class="counter-grid-col"><h3 class="counter-title"><strong>100+</strong></h3><p class="paragraph-medium-lighter is-counter">Projects Completed</p></div><div data-w-id="e38437d7-6d75-8391-6b5c-b69fcd845611" class="counter-grid-col"><h3 class="counter-title"><strong>95%</strong></h3><p class="paragraph-medium-lighter is-counter">Client Satisfaction</p></div><div data-w-id="e38437d7-6d75-8391-6b5c-b69fcd845617" class="counter-grid-col"><h3 class="counter-title"><strong>$50M+</strong></h3><p class="paragraph-medium-lighter is-counter">Revenue Generated</p></div><div data-w-id="e38437d7-6d75-8391-6b5c-b69fcd84561d" class="counter-grid-col"><h3 class="counter-title"><strong>90%</strong></h3><p class="paragraph-medium-lighter is-counter">Project Success Rate</p></div></div></div></div></section><section class="two_column_comp"><div id="w-node-_6d93814a-f5c2-7ffa-47ad-e4de6e63527c-823be852" class="two_column-thumb_wr"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66dec85ebf1fb87563a3d38b_66dec62704d296fdf1be0088_team_discussion.avif" loading="lazy" sizes="(max-width: 767px) 100vw, 50vw" srcset="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66dec85ebf1fb87563a3d38b_66dec62704d296fdf1be0088_team_discussion-p-500.avif 500w, https://cdn.prod.website-files.com/66d714555784f849823be7fa/66dec85ebf1fb87563a3d38b_66dec62704d296fdf1be0088_team_discussion-p-800.avif 800w, https://cdn.prod.website-files.com/66d714555784f849823be7fa/66dec85ebf1fb87563a3d38b_66dec62704d296fdf1be0088_team_discussion.avif 1788w" alt="Showing Painting to the client" class="aspect-ratio-large"/></div><div id="w-node-d5bf5c6c-5806-a969-9193-6379e4e6289a-823be852" class="two_column_content"><div data-w-id="06a9be74-bc12-e102-2f55-f448e0ed765f" style="-webkit-transform:translate3d(null, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"><div class="title-small is-neon">Advice</div><div class="padding-bottom padding-xsmall"></div><h2 class="text-color-white">Focused Strategies for Financial Success and Growth</h2></div><div class="padding-bottom padding-medium"></div><div class="w-layout-hflex custom-list"><div data-w-id="1990ef58-c564-f5e2-0e73-30a5f4b5fa4c" style="opacity:0" class="custom-list-item"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66deca4ab75b181be0d1e9fa_arrow_icon.svg" loading="lazy" alt="arrow right" class="icon_28"/><div class="custom-list-item-content"><h3 class="text-color-white">Strategic Growth Planning</h3><div class="padding-bottom padding-xsmall"></div><p class="custom-list-paragraph-imp">Tailored strategies to boost your business&#x27;s financial performance.</p></div></div><div data-w-id="b167607b-af23-0fff-410f-69d8dec2098a" style="opacity:0" class="custom-list-item"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66deca4ab75b181be0d1e9fa_arrow_icon.svg" loading="lazy" alt="arrow right" class="icon_28"/><div class="custom-list-item-content"><h3 class="text-color-white">Expert Financial Insights</h3><div class="padding-bottom padding-xsmall"></div><p class="custom-list-paragraph-imp">Access to in-depth analysis and recommendations from industry specialists.</p></div></div><div data-w-id="ba090284-1a4c-b0ab-a67c-095ed219495a" style="opacity:0" class="custom-list-item"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66deca4ab75b181be0d1e9fa_arrow_icon.svg" loading="lazy" alt="arrow right" class="icon_28"/><div class="custom-list-item-content"><h3 class="text-color-white">Optimized Investment Strategies</h3><div class="padding-bottom padding-xsmall"></div><p class="custom-list-paragraph-imp">Expert guidance on investments to maximize returns and minimize risks.</p></div></div></div></div></section><section class="padding-section-large-xx sectors"><div class="padding-global"><div class="container-large"><div data-w-id="4aefd6d9-ac0e-76a7-a5bc-cda80f4144db" class="title_block"><div class="title-small">Sectors</div><div class="padding-top padding-xsmall"></div><div class="title-row"><h2>Our Expertise Across Various Economic Sectors</h2><div class="title_block-right"><div class="padding-bottom padding-regular"></div></div></div></div><div class="padding-bottom padding-medium"></div><div data-w-id="73d25ef8-c405-6595-21b7-1811500b852b" class="four_column_grid"><div data-w-id="73d25ef8-c405-6595-21b7-1811500b852c" class="sector_thumbnail"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e966a6a3d43121062e57f1_Technology.avif" loading="lazy" alt="Man shaking hands with Robot" sizes="(max-width: 479px) 45vw, (max-width: 991px) 200px, (max-width: 1279px) 22vw, 251px" srcset="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e966a6a3d43121062e57f1_Technology-p-500.avif 500w, https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e966a6a3d43121062e57f1_Technology.avif 502w" class="aspect-ratio-large"/><div class="sector_thumbnail-overlay">`</div><h3 class="sector_thumbnail-title">Technology</h3></div><div data-w-id="73d25ef8-c405-6595-21b7-1811500b8531" class="sector_thumbnail"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e98249f0cec8de86121002_Education%20(6).avif" loading="lazy" alt="Doctor in mask" class="aspect-ratio-large"/><div class="sector_thumbnail-overlay"></div><h3 class="sector_thumbnail-title">Healthcare</h3></div><div data-w-id="73d25ef8-c405-6595-21b7-1811500b8536" class="sector_thumbnail"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e98273242bf7cb2acb900c_Financial_services.avif" loading="lazy" alt="Financial Services" class="aspect-ratio-large"/><div class="sector_thumbnail-overlay"></div><h3 class="sector_thumbnail-title">Financial Services</h3></div><div data-w-id="73d25ef8-c405-6595-21b7-1811500b853b" class="sector_thumbnail"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e982be6bac94f289aa76ce_manufacturing-1.avif" loading="lazy" alt="Manufacturing" class="aspect-ratio-large"/><div class="sector_thumbnail-overlay"></div><h3 class="sector_thumbnail-title">Manufacturing</h3></div><div data-w-id="73d25ef8-c405-6595-21b7-1811500b8540" class="sector_thumbnail"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e982ebadba9337e41d327d_retail-sale.avif" loading="lazy" alt="Retail sale" class="aspect-ratio-large"/><div class="sector_thumbnail-overlay"></div><h3 class="sector_thumbnail-title">Retail</h3></div><div data-w-id="73d25ef8-c405-6595-21b7-1811500b8545" class="sector_thumbnail"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e983170c8ec83c62dae0eb_Energy-1.avif" loading="lazy" alt="Energy generating resources like windmill solar panel with evening shadow" class="aspect-ratio-large"/><div class="sector_thumbnail-overlay"></div><h3 class="sector_thumbnail-title">Energy</h3></div><div data-w-id="73d25ef8-c405-6595-21b7-1811500b854a" class="sector_thumbnail"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e983467cdaf10631c60dbe_Education%20(4).avif" loading="lazy" alt="Real Estate Building near swimming pull" class="aspect-ratio-large"/><div class="sector_thumbnail-overlay"></div><h3 class="sector_thumbnail-title">Real Estate</h3></div><div data-w-id="73d25ef8-c405-6595-21b7-1811500b854f" class="sector_thumbnail"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e9838144b82f18122328fd_Education%20(9).avif" loading="lazy" alt="Education Image" class="aspect-ratio-large"/><div class="sector_thumbnail-overlay"></div><h3 class="sector_thumbnail-title">Education</h3></div></div></div></div></section><section class="fifty_fifty_comp padding-section-large-xx"><div class="padding-global padding-m-0"><div class="container-large position-relative"><div class="gradient-glow-vector"></div><div data-w-id="330cc851-6a14-19f0-32aa-ccd9bdc04159" class="fifty_fifty-grid"><div class="fifty_fifty-grid-left"><div><div class="title-small is-neon">Solution</div><div class="padding-bottom padding-xsmall"></div><h2 class="text-color-white">Cutting-Edge Solutions for Modern Enterprises</h2></div><p id="w-node-_330cc851-6a14-19f0-32aa-ccd9bdc04161-bdc04155" class="body_one text-lighter">Delivering innovative strategies and advanced solutions to drive success in today’s evolving business landscape. Empowering modern enterprises with the tools to stay ahead of the curve.</p><div class="btn_wr"><a href="/contact" class="button is-medium w-button">Get In Touch</a></div></div><div class="fifty_fifty-grid-right"><div class="fifty_fifty_img_wr"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e0a63ec123ea181869a265_Img%20(1).jpg" loading="lazy" alt="Happy Business man" sizes="(max-width: 767px) 100vw, (max-width: 991px) 45vw, (max-width: 1279px) 35vw, 416px" srcset="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e0a63ec123ea181869a265_Img%20(1)-p-500.jpg 500w, https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e0a63ec123ea181869a265_Img%20(1).jpg 624w" class="image_fit"/></div></div></div></div></div></section><section class="testimonial_comp background-color-grey"><div class="padding-section-medium"><div class="padding-global"><div class="container-large is-larger"><div data-delay="6000" data-animation="slide" class="testimonial-slider w-slider" data-autoplay="false" data-easing="ease" style="-webkit-transform:translate3d(null, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" data-hide-arrows="false" data-disable-swipe="false" data-w-id="3e0684e5-813d-56f6-c0da-0415ad833f60" data-autoplay-limit="0" data-nav-spacing="10" data-duration="500" data-infinite="true"><div class="testimonial_slider_mask w-slider-mask"><div class="testimonial_slide w-slide"><div class="testimonial_slide-inner"><div class="testimonial_thumbnail_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e12716626179492c832e6a_man_in_professional_blazer.avif" alt="Professtional employee in professional suit" class="image_fit"/></div><div class="testimonial_content_wr"><h2>Voices of Our Satisfied Clients</h2><p class="paragraph text-lighter">Working with Zeal Consulting was a game-changer for our healthcare practice. Their tailored strategies improved our operational efficiency and patient satisfaction.</p><div class="testimonial_author-content"><div class="heading-style-h5">Alex Johnson</div><div class="paragraph-small text-lighter">CEO / Innovate Tech</div></div></div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e97833a4b54b8751f12456_Quotes%20(1).svg" loading="lazy" data-w-id="1acc79d1-b07f-cd11-0574-d6c9be986d5b" alt="Quote" class="quote_icon"/></div></div><div class="testimonial_slide w-slide"><div class="testimonial_slide-inner"><div class="testimonial_thumbnail_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e8224e94fe80f50e74aacb_young-business-women.avif" alt="Casey martinez" class="image_fit"/></div><div class="testimonial_content_wr"><h2>Voices of Our Satisfied Clients</h2><p class="paragraph text-lighter">Working with Zeal Consulting was a game-changer for our healthcare practice. Their tailored strategies improved our operational efficiency and patient satisfaction.</p><div class="testimonial_author-content"><div class="heading-style-h5">Maria Lopez</div><div class="paragraph-small text-lighter">Founder / HealthFirst Clinics</div></div></div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e97833a4b54b8751f12456_Quotes%20(1).svg" loading="lazy" data-w-id="98a0adc1-2b00-a94f-b66a-d3918e2a6559" alt="Quote" class="quote_icon"/></div></div><div class="testimonial_slide w-slide"><div class="testimonial_slide-inner"><div class="testimonial_thumbnail_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e81bebe1f97bdfa0c3b0e4_young-business-people-sitting-meeting-table-conference-room-discussing-work-planning-strategy%202.avif" alt="Alex Johnson" class="image_fit"/></div><div class="testimonial_content_wr"><h2>Voices of Our Satisfied Clients</h2><p class="paragraph text-lighter">Zeal Consulting provided us with cutting-edge solutions that optimized our investment strategies. Their professional approach and detailed analysis were invaluable.</p><div class="testimonial_author-content"><div class="heading-style-h5">David Kim</div><div class="paragraph-small text-lighter">CFO / EcoEnergy Solutions</div></div></div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e97833a4b54b8751f12456_Quotes%20(1).svg" loading="lazy" data-w-id="1c04c33a-43b4-e8c2-b8d9-fcc9376711d5" alt="Quote" class="quote_icon"/></div></div><div class="testimonial_slide w-slide"><div class="testimonial_slide-inner"><div class="testimonial_thumbnail_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66f163c519112dd60edba7aa_Img%20(13).avif" alt="Young enterprenuer" class="image_fit"/></div><div class="testimonial_content_wr"><h2>Voices of Our Satisfied Clients</h2><p class="paragraph text-lighter">Zeal Consulting&#x27;s expertise in the retail sector helped us enhance our customer experience and streamline operations. Their recommendations have had a lasting impact on our business.</p><div class="testimonial_author-content"><div>Emily Chen</div><div class="paragraph-small text-lighter">Director / Retail Innovations</div></div></div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e97833a4b54b8751f12456_Quotes%20(1).svg" loading="lazy" data-w-id="baa08af0-0dc4-712f-f09b-6ef4c96dcb82" alt="Quote" class="quote_icon"/></div></div><div class="testimonial_slide w-slide"><div class="testimonial_slide-inner"><div class="testimonial_thumbnail_wr"><img loading="lazy" src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66f1643cca492b6681e4a004_Img%20(14).avif" alt="Modal smilling in a pose" class="image_fit"/></div><div class="testimonial_content_wr"><h2>Voices of Our Satisfied Clients</h2><p class="paragraph text-lighter">The team at Zeal Consulting offered exceptional guidance for our real estate projects. Their strategic insights and industry knowledge were crucial to our success.</p><div class="testimonial_author-content"><div class="heading-style-h5">Ryan Patel</div><div class="paragraph-small text-lighter">Managing Director / <strong> </strong>Urban Real Estate</div></div></div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e97833a4b54b8751f12456_Quotes%20(1).svg" loading="lazy" data-w-id="6b328c7d-1f47-4057-bb00-770767bf0b41" alt="Quote" class="quote_icon"/></div></div></div><div class="hide w-slider-arrow-left"><div class="w-icon-slider-left"></div></div><div class="hide w-slider-arrow-right"><div class="w-icon-slider-right"></div></div><div class="testimonial_slider-pagination w-slider-nav w-slider-nav-invert w-round"></div></div></div></div></div></section><section class="latest_news background-color-grey"><div class="padding-global padding-section-medium"><div class="container-large"><div data-w-id="d59de354-57b2-514f-122a-65e5085bf1bd" class="max-width-medium margin-center"><div class="title-small text-align-center">Blogs</div><div class="padding-bottom padding-xsmall"></div><h2 class="text-align-center">Latest blogs</h2></div><div class="padding-bottom padding-medium"></div><div class="w-layout-vflex posts"><div class="w-dyn-list"><div data-w-id="d59de354-57b2-514f-122a-65e5085bf1c6" role="list" class="posts_list w-dyn-items"><div role="listitem" class="posts_lists-item splide__slide w-dyn-item"><a data-w-id="d59de354-57b2-514f-122a-65e5085bf1c8" href="/post/zeal-consulting-expands-services-with-new-sustainability-consulting-division" class="posts_list-anchor w-inline-block"><div class="posts_list-thumb-wr"><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66e727f47cfb2ef43aea5a1d_Img%20(5).jpg" loading="lazy" alt="" class="image_fit"/></div><div class="posts_list-content-wr"><div class="paragraph-small text-lighter">20.10.2024</div><h3 class="heading-style-h4">Zeal Consulting Expands Services with New Sustainability Consulting Division</h3><div class="w-layout-hflex cta_readmore"><div>Read more</div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e14a33fe90d360c5ea460e_arrow-light.svg" loading="lazy" alt="Arrow right" class="cta_readmore-icon"/></div></div></a></div><div role="listitem" class="posts_lists-item splide__slide w-dyn-item"><a data-w-id="d59de354-57b2-514f-122a-65e5085bf1c8" href="/post/upcoming-webinar-leveraging-data-analytics-for-business-growth" class="posts_list-anchor w-inline-block"><div class="posts_list-thumb-wr"><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66f174eb112c9099b873945d_medium-shot-business-people%201.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 92vw, (max-width: 767px) 93vw, (max-width: 991px) 43vw, (max-width: 1279px) 29vw, 332px" srcset="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66f174eb112c9099b873945d_medium-shot-business-people%201-p-500.jpg 500w, https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66f174eb112c9099b873945d_medium-shot-business-people%201-p-800.jpg 800w, https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66f174eb112c9099b873945d_medium-shot-business-people%201.jpg 1048w" class="image_fit"/></div><div class="posts_list-content-wr"><div class="paragraph-small text-lighter">15.10.2024</div><h3 class="heading-style-h4">Upcoming Webinar: Leveraging Data Analytics for Business Growth</h3><div class="w-layout-hflex cta_readmore"><div>Read more</div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e14a33fe90d360c5ea460e_arrow-light.svg" loading="lazy" alt="Arrow right" class="cta_readmore-icon"/></div></div></a></div><div role="listitem" class="posts_lists-item splide__slide w-dyn-item"><a data-w-id="d59de354-57b2-514f-122a-65e5085bf1c8" href="/post/zeal-consulting-achieves-iso-9001-certification-for-quality-management" class="posts_list-anchor w-inline-block"><div class="posts_list-thumb-wr"><img src="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66f10a3bf590e89d94f6fa06_Img%20(12)%20(1).jpg" loading="lazy" alt="" sizes="(max-width: 479px) 92vw, (max-width: 767px) 93vw, (max-width: 991px) 43vw, (max-width: 1279px) 29vw, 332px" srcset="https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66f10a3bf590e89d94f6fa06_Img%20(12)%20(1)-p-500.jpg 500w, https://cdn.prod.website-files.com/66e11e76591bba0feb6049e0/66f10a3bf590e89d94f6fa06_Img%20(12)%20(1).jpg 664w" class="image_fit"/></div><div class="posts_list-content-wr"><div class="paragraph-small text-lighter">10.10.2024</div><h3 class="heading-style-h4">Zeal Consulting Achieves ISO 9001 Certification for Quality Management</h3><div class="w-layout-hflex cta_readmore"><div>Read more</div><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66e14a33fe90d360c5ea460e_arrow-light.svg" loading="lazy" alt="Arrow right" class="cta_readmore-icon"/></div></div></a></div></div></div></div></div></div></section><section class="partners_comp"><div class="padding-global"><div class="container-large"><div class="logos_grid"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66ef17c044f29b78bea0de16_logoipsum-219.svg" loading="lazy" alt="Logo Ipsum One" class="logo_grid-logo"/><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66ef9597293b8fdb7ec54a50_logoipsum-2.svg" loading="lazy" alt="Logo Ipsum 2" class="logo_grid-logo"/><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66ef95d743461a2e10f4df37_logoipsum-3.svg" loading="lazy" alt="logoipsum 3" class="logo_grid-logo"/><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66ef95f6f2044c73d88bf647_logoipsum-218.svg" loading="lazy" alt="logo Ipsum 4" class="logo_grid-logo"/></div></div></div></section><footer data-w-id="2c84d97c-00bc-8131-9da7-85de9c21320c" class="footer_component"><div data-w-id="2c84d97c-00bc-8131-9da7-85de9c21320d" class="gradient-patch hide"></div><div class="padding-global position-relative"><div class="container-large"><div class="footer_comp-grid"><div class="footer_col is-one"><a href="/" aria-current="page" class="footer-brand w-inline-block w--current"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66d992bfc9a693f8a38c7fd2_Logo%20(1).svg" loading="lazy" alt="Zeal Consult Template"/></a><p id="w-node-_2c84d97c-00bc-8131-9da7-85de9c213214-9c21320c" class="body_one">Expert guidance tailored to your business needs, driving growth and innovation.</p><div class="social_share"><h5 class="text-color-grey footer-title">Subscribe Us</h5><div class="social_share-row"><a href="http://www.facebook.com" target="_blank" class="social_share-icon w-inline-block"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66da9bea01e0255ac118d9f9_Social_icons_black.svg" loading="lazy" alt="Facebook" class="social_icon is-facebook"/></a><a href="http://www.x.com" target="_blank" class="social_share-icon w-inline-block"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66da9d03eb5c0df47f957dac_X.svg" loading="lazy" alt="X" class="social_icon"/></a><a href="http://www.instagram.com" target="_blank" class="social_share-icon w-inline-block"><img src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/66da9fe6ad3721e6363b08e1_Vector%20(2)%20(1)%20(1)%201.svg" loading="lazy" alt="Instagram" class="social_icon"/></a></div></div></div><div class="footer_col is_two"><div class="footer_links_wr is-two"><h5 class="text-color-grey footer-title">Useful links</h5><div class="footer_col_inner is_two_inner"><a href="/" aria-current="page" class="footer_link w--current">Home</a><a href="#" class="footer_link">About</a><a href="/services" class="footer_link">Services</a><a href="/blog" class="footer_link">Blogs</a><a href="/contact" class="footer_link">Contact</a></div></div></div><div class="footer_col is-last"><h5 class="text-color-grey">Subscribe for our newsletter</h5><div class="padding-bottom padding-xxsmall"></div><div class="footer_col_inner"><p class="body_one text-light hide">Consequat vel arcu feugiat dui eu tempor pretium</p><div class="form-block w-form"><form id="wf-form-Subscribe-Form" name="wf-form-Subscribe-Form" data-name="Subscribe Form" method="get" data-wf-page-id="66d714565784f849823be852" data-wf-element-id="2c84d97c-00bc-8131-9da7-85de9c213241"><div class="form_group is-subscribe"><input class="form_input is-subscribe w-input" maxlength="256" name="Subscribe-Email" data-name="Subscribe Email" placeholder="Your email" type="email" id="Subscribe-Email" required=""/><input type="submit" data-wait="Please wait..." class="button is-subscribe w-button" value="Subscribe"/></div></form><div class="thankyou-state w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div class="padding-bottom"></div></div><div class="two_columns"><div class="is-addres"><h5 class="text-color-alternate">Address</h5><div class="padding-top padding-xxsmall"></div><div class="body_one text-light">1234 Innovation Drive Suite 567 Cityville, State 89012 Country</div></div><div class="quick-contact"><div class="qc_link_wr"><h5 class="text-color-alternate">Email</h5><div class="padding-top padding-xxsmall"></div><a href="mailto:info@zealconsult.com" class="link-light-grey">info@zealconsult.com</a></div><div class="qc_link_wr"><h5 class="text-color-alternate">Phone</h5><div class="padding-top padding-xxsmall"></div><a href="tel:18005551234" class="link-light-grey">+1 (800) 555-1234</a></div></div></div></div></div></div></div><div class="hr"></div><div class="padding-global"><div class="container-large"><div class="w-layout-hflex copyrights"><div class="body_one ligher">Developed by <a href="http://www.zealousweb.com/" target="_blank" class="footer-paragraph-link text-color-white">ZealousWeb</a></div><div class="body_one ligher">Powered by <a href="http://webflow.com/" target="_blank" class="text-color-white footer-paragraph-link">Webflow</a></div><a href="/template/instructions" class="footer-quick-links text-color-white">Instructions</a><a href="/template/licenses" class="text-color-white footer-quick-links">Licenses</a></div></div></div></footer></main></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66d714555784f849823be7fa" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66d714555784f849823be7fa/js/webflow.60bf0a8cf.js" type="text/javascript"></script></body></html>
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
